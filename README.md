@@ -7,6 +7,6 @@ With regards to BVAE, we enforced the latent space to see its dimensions indepen
 
 ![BVAE_1](https://github.com/ErshadHasanpour/Analysis-of-Different-VAE-models-based-on-MNIST-digits-/assets/96794427/2ec140e0-0df1-442e-bdd3-554ed8dd102d)
 
-However, as dimensions of latent space are less dependent, we can conduct disentangled learning, which means we can assign each dimension of latent space into a narrowly defined and interpretable feature in image space. In the below image we can see that by fixing the amount of latent space’s dimensions, except the first one which is varied between (-2.5, 2.5), produced images will change from digit 2 to 6, which means the first dimension of latent space is responsible for this special feature in image space. 
+However, as dimensions of latent space are less dependent, we can conduct disentangled learning, which means we can assign each dimension of latent space into a narrowly defined and interpretable feature in image space. In the below image we can see that by fixing the amount of latent space’s dimensions, except the first one which is varied between (-2.5, 2.5), generated images will change from digit 2 to 6, which means the first dimension of latent space is responsible for this special feature in image space. 
 
 ![BVAE_2](https://github.com/ErshadHasanpour/Analysis-of-Different-VAE-models-based-on-MNIST-digits-/assets/96794427/d15f68c8-5438-492b-854e-698d89f969f8)
